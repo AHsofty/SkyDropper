@@ -114,7 +114,7 @@ class Create_coins(turtle.Turtle):
 
 # Creates all of the coins
 coins = []
-for i in range(6):
+for i in range(coin_amount):
 	coins.append(Create_coins())
 
 """	
@@ -122,7 +122,7 @@ This allows us to create multiple enemies at the same time.
 This also allows us to iterate through all the enemies and do things like moving them and checking for collisions etc
 """
 enemies = []
-for i in range(15):
+for i in range(enemy_amount):
 	enemies.append(Enemies())
 
 
